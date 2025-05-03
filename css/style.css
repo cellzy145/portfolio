@@ -368,16 +368,16 @@ input {
     font-family: 'Inter', sans-serif;
   }
 
-  /* Modal Heading */
-    .modal-heading {
+/* Modal Heading */
+.modal-heading {
         margin-top: 0;
         font-size: 1.8rem;
         color: #fff;
         margin-bottom: 1.5rem;
-    }
+   }
   
-  /* Modal Content */
-  .modal-content {
+/* Modal Content */
+.modal-content {
     background-color: #000;
     color: #fff;
     margin: auto;
@@ -582,7 +582,7 @@ input {
 }
 
 #contact button:hover {
-    background-color: #2aa9a1;
+    background-color: #218883;
 }
 
 .back-to-top {
@@ -650,7 +650,7 @@ footer a:hover {
     
     /* Header/navbar changes */
     .header-nav {
-        position: fixed; /* Fix the navbar to the top */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
