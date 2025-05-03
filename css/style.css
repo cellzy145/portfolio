@@ -572,8 +572,8 @@ input {
 
 #contact button {
     padding: 1rem;
-    background-color: #f7931e;
-    color: #000;
+    background-color: #33cccc;
+    color: #fff;
     font-size: 1rem;
     border: none;
     border-radius: 8px;
@@ -582,7 +582,7 @@ input {
 }
 
 #contact button:hover {
-    background-color: #ffa733;
+    background-color: #00b3b3;
 }
 
 .back-to-top {
@@ -608,7 +608,6 @@ input {
     background-color: #1C8C83;
   }
   
-
 /* FOOTER*/
 footer {
     background-color: #000;
@@ -621,13 +620,13 @@ footer {
 }
 
 footer a {
-    color: #f7931e;        
+    color: #33cccc;        
     text-decoration: none;
     transition: color 0.5s ease;
 }
 
 footer a:hover {
-    color: #ffa733;
+    color: #00b3b3;
 }
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
