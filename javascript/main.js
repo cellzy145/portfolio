@@ -143,16 +143,6 @@ document.addEventListener('DOMContentLoaded', function () {
         title: "7 Best Ways to Optimize Your PC for Gaming in 2025",
         description: "A practical guide to boosting game performance in 2025.",
         anchor: "seo-gaming-2025.html"
-    },
-    {
-        title: "How to Improve Page Speed for SEO",
-        description: "Tips on making your website faster and more SEO-friendly.",
-        anchor: "page-speed-seo.html"
-    },
-    {
-        title: "Semantic HTML for Better SEO",
-        description: "Learn how semantic tags help search engines understand your content.",
-        anchor: "semantic-html-seo.html"
     }
     ];
 
