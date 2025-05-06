@@ -32,10 +32,18 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.toggle('no-scroll');
         
         if (navList.classList.contains('show')) {
-            menuToggle.innerHTML = '<i class="fas fa-times"></i>';
+            menuToggle.innerHTML = `
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            `; // "X" icon
             menuToggle.setAttribute('aria-expanded', 'true');
         } else {
-            menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            menuToggle.innerHTML = `
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 6h18M3 12h18M3 18h18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            `; // Hamburger icon
             menuToggle.setAttribute('aria-expanded', 'false');
         }
     }
